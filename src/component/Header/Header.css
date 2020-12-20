@@ -1,0 +1,71 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #fff;
+}
+
+.header__logo {
+  height: 25px;
+  object-fit: contain;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__leftIcon {
+  cursor: pointer;
+}
+
+.header__center {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+}
+
+.header__center > input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 0.4rem;
+  font-weight: 600;
+}
+
+.header__searchIcon {
+  width: auto !important;
+  background-color: #fafafa;
+  border-left: 1px solid #cccccc;
+  color: gray;
+  font-size: 1.9rem !important;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.header__searchIcon:hover {
+  background-color: #f0f0f0;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__rightIcon {
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
+
+/* COMPONENT NUMBER: 1 */
+/* Mobile Version */
+
+/* Tablet Version */

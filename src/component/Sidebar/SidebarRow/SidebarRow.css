@@ -1,0 +1,40 @@
+.sidebarRow {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  transition: all 200ms ease-in-out;
+}
+
+.sidebarRow:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.sidebarRow:hover > .sidebarRow__icon {
+  color: red;
+}
+
+.sidebarRow__icon {
+  font-size: large !important;
+  color: #606060;
+}
+
+.sidebarRow__title {
+  flex: 1;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.sidebarRow.selected {
+  background-color: lightgray;
+}
+
+.sidebarRow.selected > .sidebarRow__icon {
+  color: red;
+}
+
+/* COMPONENT NUMBER: 4 */
+/* Mobile Version */
+
+/* Tablet Version */
