@@ -31,7 +31,7 @@ const Header = () => {
                     value={inputSearch} 
                     onChange={e => setInputSearch(e.target.value)} 
                 />
-                <Link to={`/search/${inputSearch}`}>
+                <Link to={`/search/${inputSearch}`} className="header__linkSearchIcon">
                     <SearchIcon className="header__searchIcon" />
                 </Link>
             </div>

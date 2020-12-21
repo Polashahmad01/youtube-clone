@@ -123,25 +123,6 @@ const RecommendVideo = () => {
                     channel="Stefan Zimmermann"
                     image={`https://i.ytimg.com/vi/sb6WlQiaJeM/hq720.jpg?sqp=-oaymwEZCOgCEMoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBRhf12KbyDCSt4HTVXc8VDSJX3Gw`}
                 />
-
-                {/* <VideoCard 
-                    title=""
-                    views=""
-                    timestamp=""
-                    channelImage=""
-                    channel=""
-                    image={}
-                /> */}
-
-                {/* <VideoCard 
-                    title=""
-                    views=""
-                    timestamp=""
-                    channelImage=""
-                    channel=""
-                    image={}
-                /> */}
-                
             </div>
         </div>
     )

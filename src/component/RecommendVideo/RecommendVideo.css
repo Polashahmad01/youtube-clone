@@ -15,7 +15,10 @@
   flex-wrap: wrap;
 }
 
-/* COMPONENT NUMBER: 3 */
 /* Mobile Version */
-
+@media (max-width: 767px) {
+  .recommendVideo {
+    flex: 1;
+  }
+}
 /* Tablet Version */
